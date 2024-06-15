@@ -1,5 +1,7 @@
-package com.example.layeredarchitecture.Dao;
+package com.example.layeredarchitecture.Dao.DAO_IMPL;
 
+import com.example.layeredarchitecture.Dao.OrderDAO;
+import com.example.layeredarchitecture.Dao.OrderDetailDAO;
 import com.example.layeredarchitecture.db.DBConnection;
 import com.example.layeredarchitecture.model.OrderDTO;
 import com.example.layeredarchitecture.model.OrderDetailDTO;
@@ -7,7 +9,7 @@ import com.example.layeredarchitecture.model.OrderDetailDTO;
 import java.sql.*;
 import java.util.List;
 
-public class OrderDAOImpl implements OrderDAO{
+public class OrderDAOImpl implements OrderDAO {
 
     OrderDetailDAO orderDetailsDAO = new OrderDetailDAOImpl();
 

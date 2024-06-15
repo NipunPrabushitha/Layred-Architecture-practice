@@ -1,5 +1,6 @@
-package com.example.layeredarchitecture.Dao;
+package com.example.layeredarchitecture.Dao.DAO_IMPL;
 
+import com.example.layeredarchitecture.Dao.CustomerDAO;
 import com.example.layeredarchitecture.db.DBConnection;
 import com.example.layeredarchitecture.model.CustomerDTO;
 
